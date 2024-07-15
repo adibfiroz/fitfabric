@@ -20,7 +20,7 @@ const LandingPage = () => {
             <ul className="text-[12px] text-gray-200 my-3">
               <li className="mb-1.5"> - Clubs in the best locations</li>
               <li className="mb-1.5"> -  The widest selection of group classes</li>
-              <li className="mb-1.5"> - Rewards for activity in the "Game of Form"</li>
+              <li className="mb-1.5"> - Rewards for activity in the Game of Form</li>
               <li className="mb-1.5"> - Training plan</li>
               <li className="mb-1.5"> - Introductory meeting</li>
               <li className="mb-1.5"> - Intro with a trainer</li>
@@ -29,7 +29,7 @@ const LandingPage = () => {
 
             <div className='flex flex-col md:flex-row gap-4 md:gap-x-4 mt-4'>
               <Button variant="secondary" className='radial_bg_red shadow-xl text-white px-10 font-semibold  rounded-full text-[11px] sm:text-sm'>
-                I'am buying
+                I{`'`}am buying
               </Button>
               <div className='border-2 border-white cursor-pointer text-[11px] sm:text-sm rounded-full py-2 justify-center px-10 font-semibold flex gap-1 items-center hover:underline whitespace-nowrap'>
                 Game of form
@@ -47,7 +47,7 @@ const LandingPage = () => {
         <div className="mt-4">
           <h2 className=" text-white text-xl md:text-2xl font-extrabold">
             <Link href="/" className="hover:underline">
-              You're closer to fitness than you think!
+              You{`'`}re closer to fitness than you think!
               <ChevronRight size={24} className=" inline-block ml-1 text-[#6cce40]" />
             </Link>
           </h2>
@@ -178,7 +178,7 @@ const LandingPage = () => {
 
               <h4 className=" uppercase text-black font-bold mb-5  group-hover/item:underline">Flat Belly </h4>
 
-              <p className=" text-gray-600 text-[11px] leading-6">to strengthen and shape your abdominal muscles. If you want a flat stomach and a beautifully defined "six pack" - these classes are for you! You will burn fat tissue, lose your belly, sides and unnecessary kilograms and naturally improve your fitness. A shaped figure and better well-being guaranteed!</p>
+              <p className=" text-gray-600 text-[11px] leading-6">to strengthen and shape your abdominal muscles. If you want a flat stomach and a beautifully defined six pack - these classes are for you! You will burn fat tissue, lose your belly, sides and unnecessary kilograms and naturally improve your fitness. A shaped figure and better well-being guaranteed!</p>
 
               <div className="flex justify-end">
                 <Button variant="primaryGreen" className=" absolute bottom-5 right-5 shadow-xl mt-8 rounded-full p-0 h-5 px-2">
