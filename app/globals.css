@@ -18,6 +18,10 @@ body,
   background: radial-gradient(89.22% 196.3% at 41.24% -96.3%, #B8DF4B 71.21%, #6CCE40 100%);
 }
 
+button[data-state="active"] {
+  background: radial-gradient(89.22% 196.3% at 41.24% -96.3%, #B8DF4B 71.21%, #6CCE40 100%);
+}
+
 .radial_bg_red {
   background: radial-gradient(80.57% 177.78% at 43.23% -101.85%, #FE6D6D 42.37%, #FF1D1D 100%);
 }
