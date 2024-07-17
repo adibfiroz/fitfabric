@@ -18,7 +18,7 @@ body,
   background: radial-gradient(89.22% 196.3% at 41.24% -96.3%, #B8DF4B 71.21%, #6CCE40 100%);
 }
 
-button[data-state="active"] {
+button[data-state="active"].schedule {
   background: radial-gradient(89.22% 196.3% at 41.24% -96.3%, #B8DF4B 71.21%, #6CCE40 100%);
 }
 
@@ -45,6 +45,21 @@ button[data-state="active"] {
   box-shadow: .8rem 1.6rem 12.8rem #0d1c071a
 }
 
+.custom-select {
+  appearance: none; /* Remove default arrow */
+  -webkit-appearance: none; /* Remove default arrow in Safari */
+  -moz-appearance: none; /* Remove default arrow in Firefox */
+  background-color: white;
+  background-image: url('/down-arrows.png'); /* Path to your custom arrow icon */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Position the icon */
+  background-size: 22px; /* Adjust size as needed */
+}
+
+.bitmap-icon {
+  filter: drop-shadow(-0.8rem 1.6rem 2.4rem #0d1c074d);
+}
+
 @media screen and (max-width: 1000px) {
   .scrollMobile {
     overflow-x: auto;
@@ -52,6 +67,12 @@ button[data-state="active"] {
         scrollbar-width: none;
         flex-wrap: nowrap;
         padding-bottom: 50px;
+  }
+  .scrollTabs {
+    overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        flex-wrap: nowrap;
   }
   .skew::after {
     left: 6rem;
@@ -62,7 +83,11 @@ button[data-state="active"] {
   }
 }
 
-
+@media (min-width: 1024px) {
+  .marginInherit {
+      margin: inherit;
+  }
+}
 
   @layer base {
     :root {

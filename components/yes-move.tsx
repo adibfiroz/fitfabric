@@ -57,8 +57,8 @@ const YesMove = () => {
         <div>
             <div className="my-16 px-3 lg:px-16 max-w-6xl mx-auto">
                 <img src="/yesmove.svg" className=" mx-auto w-32" alt="" />
-                <p className=" text-[12px] text-center text-gray-500  mt-6">The largest training platform in Poland. </p>
-                <p className=" text-[12px] text-center text-gray-500  mt-2 mb-10">
+                <p className=" text-[12px] 2xl:text-[15px] text-center text-gray-500  mt-6">The largest training platform in Poland. </p>
+                <p className=" text-[12px] 2xl:text-[15px] text-center text-gray-500  mt-2 mb-10">
                     Train. Where you want and when you want.</p>
 
                 <div className="flex md:inline scrollMobile">
@@ -71,8 +71,8 @@ const YesMove = () => {
                                 </Button>
                             </div>
 
-                            <div className=" text-black text-[11px] font-bold mt-7">{item.title}</div>
-                            <p className=" text-[10px] text-gray-600">{item.desc}</p>
+                            <div className=" text-black text-[11px] 2xl:text-[15px] font-bold mt-7">{item.title}</div>
+                            <p className=" text-[10px] 2xl:text-[14px] text-gray-600">{item.desc}</p>
 
                             <div className="flex gap-6 text-[10px] text-gray-600 mt-4">
                                 <div className="flex gap-2">
@@ -87,72 +87,6 @@ const YesMove = () => {
                         </div>
                     ))}
 
-                    {/* <div className=" bg-white custom-shadow w-72 md:w-52 xl:w-72 align-top rounded-2xl p-4 inline-block mr-4">
-                        <div className=" relative w-[240px] md:w-auto">
-                            <img src="/yesmove2.jpg" className=" rounded-xl" alt="" />
-                            <Button variant="primaryGreen" onClick={() => handleModal("https://player.vimeo.com/video/399716434?autoplay=1&title=0&byline=0&portrait=0")} className=" rounded-full px-2 shadow-xl h-auto absolute -bottom-4 left-3">
-                                <img src="/play.svg" width={18} className=" rounded-xl" alt="" />
-                            </Button>
-                        </div>
-
-                        <div className=" text-black text-[11px] font-bold mt-7">TURBO COMBUSTION</div>
-                        <p className=" text-[10px] text-gray-600">Maria and Kamil Mańko</p>
-
-                        <div className="flex gap-6 text-[10px] text-gray-600 mt-4">
-                            <div className="flex gap-2">
-                                <img src="/duration.svg" width={14} height={14} alt="" />
-                                thirty
-                            </div>
-                            <div className="flex gap-2">
-                                <img src="/intensity.svg" width={14} height={14} alt="" />
-                                short
-                            </div>
-                        </div>
-                    </div>
-                    <div className=" bg-white custom-shadow w-72 md:w-52 xl:w-72  align-top rounded-2xl p-4 inline-block mr-4">
-                        <div className=" relative w-[240px] md:w-auto">
-                            <img src="/yesmove3.jpg" className=" rounded-xl" alt="" />
-                            <Button variant="primaryGreen" onClick={() => handleModal("https://player.vimeo.com/video/399692892?autoplay=1&title=0&byline=0&portrait=0")} className=" rounded-full px-2 shadow-xl h-auto absolute -bottom-4 left-3">
-                                <img src="/play.svg" width={18} className=" rounded-xl" alt="" />
-                            </Button>
-                        </div>
-
-                        <div className=" text-black text-[11px] font-bold mt-7">TURBO COMBUSTION</div>
-                        <p className=" text-[10px] text-gray-600">Maria and Kamil Mańko</p>
-
-                        <div className="flex gap-6 text-[10px] text-gray-600 mt-4">
-                            <div className="flex gap-2">
-                                <img src="/duration.svg" width={14} height={14} alt="" />
-                                thirty
-                            </div>
-                            <div className="flex gap-2">
-                                <img src="/intensity.svg" width={14} height={14} alt="" />
-                                short
-                            </div>
-                        </div>
-                    </div>
-                    <div className=" bg-white custom-shadow w-72 md:w-52 xl:w-72 rounded-2xl p-4 inline-block mr-4 md:ml-20 xl:ml-24 md:mt-4">
-                        <div className=" relative w-[240px] md:w-auto">
-                            <img src="/yesmove4.jpg" className=" rounded-xl" alt="" />
-                            <Button variant="primaryGreen" onClick={() => handleModal("https://player.vimeo.com/video/399716434?autoplay=1&title=0&byline=0&portrait=0")} className=" rounded-full px-2 shadow-xl h-auto absolute -bottom-4 left-3">
-                                <img src="/play.svg" width={18} className=" rounded-xl" alt="" />
-                            </Button>
-                        </div>
-
-                        <div className=" text-black text-[11px] font-bold mt-7">TURBO COMBUSTION</div>
-                        <p className=" text-[10px] text-gray-600">Maria and Kamil Mańko</p>
-
-                        <div className="flex gap-6 text-[10px] text-gray-600 mt-4">
-                            <div className="flex gap-2">
-                                <img src="/duration.svg" width={14} height={14} alt="" />
-                                thirty
-                            </div>
-                            <div className="flex gap-2">
-                                <img src="/intensity.svg" width={14} height={14} alt="" />
-                                short
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
 
                 <div className=" inline-block md:-mt-6 bg-[#b8df4b1a] align-top w-full md:w-[27rem] xl:w-[37rem] px-6 py-10 text-center rounded-2xl">

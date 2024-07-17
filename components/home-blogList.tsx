@@ -83,17 +83,17 @@ const HomeBlogList = () => {
                 {BlogList.map((item) => (
                     <div key={item.id} className=" h-full">
                         <div className=" bg-white rounded-2xl p-4 group/item mr-5">
-                            <Link href="/blog">
+                            <Link href="/blogs/package-info">
                                 <div className=" grid grid-cols-12 gap-4">
                                     <div className=" col-span-6">
                                         <img src={item.img} className=" rounded-2xl" alt="fit1" />
                                     </div>
-                                    <div className=" col-span-6">
-                                        <div className=" text-[13px] font-semibold leading-6 group-hover/item:underline">
+                                    <div className=" col-span-6 flex flex-col justify-between">
+                                        <div className=" text-[13px] 2xl:text-lg font-semibold leading-6 group-hover/item:underline">
                                             {item.title}
                                         </div>
 
-                                        <div className=" text-right mt-6">
+                                        <div className=" text-right">
                                             <Button variant="primaryGreen" className=" rounded-full p-0 h-5 px-2">
                                                 <ChevronRight size={14} className="text-black" />
                                             </Button>

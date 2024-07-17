@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <footer className=' bg-[#0d1c07] rounded-t-3xl'>
-            <div className='max-w-screen-2xl mx-auto px-3 lg:px-16 py-10 text-white'>
+            <div className='max-w-[1900px] mx-auto px-3 lg:px-16 py-10 text-white'>
                 <div className=" flex md:justify-end ml-5 -mt-16 md:mr-64">
                     <img src="/footericon.webp" width={80} alt="footer" />
                 </div>
