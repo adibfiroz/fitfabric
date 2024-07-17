@@ -60,7 +60,7 @@ const ContactPage = () => {
                             <div className=' mt-3 text-[13px] text-gray-500'>( <span className=' text-red-400'>*</span> ) required fields</div>
 
                             <p className=' mt-4 text-[13px] text-gray-500 leading-6'>
-                                <span className=' font-semibold text-[#0d1c07]'>Data controller:</span> Benefit Systems SA with its registered office in Warsaw, ul. Plac Europejski 2, 00-844 Warsaw (hereinafter " <span className=' font-semibold text-[#0d1c07]'>we</span>  " or " <span className=' font-semibold text-[#0d1c07]'>Benefit Systems</span>  "). You can contact the controller via e-mail: <Link href="" className=' underline font-semibold text-[#0d1c07]'>daneosobowe@fitness.benefitsystems.pl </Link> or in writing to the following address: Pl. Europejski 2, 00-844 Warsaw, with the note "Personal data".
+                                <span className=' font-semibold text-[#0d1c07]'>Data controller:</span> Benefit Systems SA with its registered office in Warsaw, ul. Plac Europejski 2, 00-844 Warsaw (hereinafter {`"`} <span className=' font-semibold text-[#0d1c07]'>we</span>  {`"`} or {`"`} <span className=' font-semibold text-[#0d1c07]'>Benefit Systems</span>  {`"`}). You can contact the controller via e-mail: <Link href="" className=' underline font-semibold text-[#0d1c07]'>daneosobowe@fitness.benefitsystems.pl </Link> or in writing to the following address: Pl. Europejski 2, 00-844 Warsaw, with the note {`"`}Personal data{`"`}.
                             </p>
                         </form>
 
