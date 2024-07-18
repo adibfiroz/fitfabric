@@ -21,7 +21,7 @@ const ClassesPage = () => {
         <div className='h-full max-w-[1900px] mx-auto'>
 
             <div className="homeBanner pt-32 pb-12 rounded-b-3xl px-3 lg:px-16">
-                <div className=" relative rounded-2xl overflow-hidden lg:h-[450px] grid grid-cols-12 bg-white mx-auto">
+                <div className=" relative rounded-2xl overflow-hidden lg:h-[450px] grid grid-cols-12 bg-white mx-auto dark:bg-[#020817]">
                     <div className=" relative col-span-12 lg:col-span-7 xl:col-span-8 rounded-2xl overflow-hidden">
                         <video ref={videoRef} width="1120" height="632" className='h-full w-full object-cover' autoPlay muted={isMuted} loop >
                             <source src="https://fitfabric.pl/media/5580/download/zajecia.mp4?v=1&inline=1" type="video/mp4" />
@@ -31,12 +31,12 @@ const ClassesPage = () => {
                         </Button>
                     </div>
 
-                    <div className=" text-gray-600 py-4 px-10 col-span-12 lg:col-span-5 xl:col-span-4">
+                    <div className=" text-gray-600 dark:text-gray-400 py-4 px-10 col-span-12 lg:col-span-5 xl:col-span-4">
 
                         <h1 className=" text-xl sm:text-2xl mt-1 mb-4 text-[#6cce40] font-extrabold">
                             Find out how to exercise <br /> well in a group!</h1>
-                        <p className=" text-[13px] xl:text-[14px] 2xl:text-[15px] text-gray-600">In our clubs you benefit from the richest offer of group fitness classes in Poland.</p>
-                        <ul className="text-[13px] xl:text-[14px] 2xl:text-[15px] text-gray-600 my-3">
+                        <p className=" text-[13px] xl:text-[14px] 2xl:text-[15px] ">In our clubs you benefit from the richest offer of group fitness classes in Poland.</p>
+                        <ul className="text-[13px] xl:text-[14px] 2xl:text-[15px]  my-3">
                             <li className="mb-1.5">Choose from workouts: </li>
                             <li className="mb-1.5"> - strengthening the body and fitness,</li>
                             <li className="mb-1.5"> -  health-promoting exercises,</li>
@@ -44,7 +44,7 @@ const ClassesPage = () => {
                             <li className="mb-1.5"> - dancing, relaxation.</li>
                         </ul>
 
-                        <p className=" text-[13px] xl:text-[14px] 2xl:text-[15px] text-gray-600">The offer also includes world-famous Les Mills training and our own fitness classes, such as Anti-Stress or the extremely popular stationary bike training.</p>
+                        <p className=" text-[13px] xl:text-[14px] 2xl:text-[15px] ">The offer also includes world-famous Les Mills training and our own fitness classes, such as Anti-Stress or the extremely popular stationary bike training.</p>
 
                         <div className='flex flex-col md:flex-row gap-4 md:gap-x-4 mt-4  mb-5 lg:mb-0'>
                             <Button variant="secondary" className='radial_bg_red shadow-xl text-white px-10 font-semibold  rounded-full text-[11px] sm:text-sm'>

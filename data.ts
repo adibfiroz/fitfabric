@@ -282,7 +282,8 @@ export const data = {
             name: "ABT",
             description:
               "Abdominal, buttock and thigh exercises (ABT, or abdomen, buttocks, thighs). ABT classes are ideal for people who want to have a beautifully shaped figure: a flat stomach, shapely buttocks and slim thighs. ABT training involves doing crunches or squats to energetic music. It allows you to effectively improve your fitness, lose unnecessary kilograms, get rid of fat tissue and cellulite. A firm and slim body is within your reach!",
-            video: "https://www.youtube.com/watch?v=9xwazD5SyVg",
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0",
             forWhom: [
               "for those who are just starting out",
               "for those who train regularly",
@@ -304,7 +305,8 @@ export const data = {
             name: "BRAZILIAN BUTTOCKS",
             description:
               "Brazilian Buttocks workout is designed to shape and lift the glutes, providing a firm and toned look. These classes involve a variety of exercises such as lunges, squats, and hip thrusts, all set to upbeat music. The workout helps in building muscle, burning fat, and enhancing the overall appearance of the lower body. It is perfect for those aiming to achieve a sculpted and well-defined buttocks.",
-            video: "https://www.youtube.com/watch?v=example",
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0",
             forWhom: [
               "for beginners",
               "for regular trainees",
@@ -326,7 +328,8 @@ export const data = {
             name: "ABS AND STRETCH",
             description:
               "A class focused on strengthening the core and improving flexibility through a combination of abdominal exercises and stretching routines.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for beginners",
               "for regular trainees",
@@ -343,10 +346,11 @@ export const data = {
             ],
           },
           {
-            name: "DEEPWORK®​",
+            name: "DEEPWORK",
             description:
               "An intense cardio workout combining functional training with body and mind exercises, designed to improve endurance, strength, and mental focus.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for fitness enthusiasts",
               "for regular trainees",
@@ -366,7 +370,8 @@ export const data = {
             name: "FITBALL",
             description:
               "A fun and dynamic class using a stability ball to enhance core strength, balance, and coordination through various exercises.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for beginners",
               "for regular trainees",
@@ -386,7 +391,8 @@ export const data = {
             name: "FULL BODY WORKOUT",
             description:
               "A comprehensive workout targeting all major muscle groups to improve overall strength, endurance, and fitness levels.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a balanced workout",
@@ -403,10 +409,11 @@ export const data = {
             ],
           },
           {
-            name: "GT TRAINING – POWER",
+            name: "GT TRAINING-POWER",
             description:
               "A high-intensity workout focusing on building power and strength through a series of dynamic exercises and strength training routines.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for advanced trainees",
               "for those seeking power and strength",
@@ -427,7 +434,8 @@ export const data = {
             name: "INTRO FITNESS",
             description:
               "A beginner-friendly class designed to introduce basic fitness concepts and exercises to build a solid foundation for future workouts.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for beginners",
               "for those new to fitness",
@@ -448,7 +456,8 @@ export const data = {
             name: "KETTLEBELLS",
             description:
               "A strength and conditioning class using kettlebells to perform a variety of dynamic exercises targeting multiple muscle groups.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for fitness enthusiasts",
               "for those looking to improve strength and conditioning",
@@ -468,7 +477,8 @@ export const data = {
             name: "BUTTOCKS AND ABDOMEN",
             description:
               "A focused workout targeting the glutes and core muscles to tone and strengthen these areas through a variety of exercises.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for those focusing on lower body and core",
               "for regular trainees",
@@ -489,7 +499,8 @@ export const data = {
             name: "FLAT BELLY",
             description:
               "A specialized class designed to target the abdominal area with exercises that help achieve a flat and toned stomach.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for those focusing on core strength",
               "for anyone aiming for a flat stomach",
@@ -509,7 +520,8 @@ export const data = {
             name: "ARMS AND ABDOMEN",
             description:
               "A workout class that targets the arms and core, combining strength training and toning exercises for these specific areas.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for those focusing on upper body and core",
               "for regular trainees",
@@ -529,7 +541,8 @@ export const data = {
             name: "SHAPE",
             description:
               "A comprehensive class aimed at shaping and toning the entire body through a mix of cardio, strength, and flexibility exercises.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to shape their body",
@@ -549,7 +562,8 @@ export const data = {
             name: "STEP & SHAPE",
             description:
               "A dynamic class combining step aerobics with shaping exercises to improve cardiovascular fitness and muscle tone.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for those who enjoy aerobics",
               "for regular trainees",
@@ -569,7 +583,8 @@ export const data = {
             name: "BARBELLS",
             description:
               "A strength training class using barbells to perform a variety of exercises aimed at building muscle and increasing strength.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for fitness enthusiasts",
               "for those looking to build muscle",
@@ -589,7 +604,8 @@ export const data = {
             name: "TBC",
             description:
               "Total Body Conditioning (TBC) is a full-body workout designed to improve strength, endurance, and overall fitness through various exercises.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a full-body workout",
@@ -610,7 +626,8 @@ export const data = {
             name: "CROSS TRAINING",
             description:
               "A versatile workout that incorporates various types of exercises to improve overall fitness, strength, and endurance.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for fitness enthusiasts",
               "for those looking for a varied workout",
@@ -630,7 +647,8 @@ export const data = {
             name: "FUNCTIONAL TRAINING",
             description:
               "A workout focused on improving functional strength and mobility through exercises that mimic everyday movements.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to improve functional strength",
@@ -650,7 +668,8 @@ export const data = {
             name: "CIRCUIT TRAINING",
             description:
               "A high-energy workout that involves a series of exercises performed in rotation with minimal rest to improve strength and endurance.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for fitness enthusiasts",
               "for those looking for a challenging workout",
@@ -671,7 +690,8 @@ export const data = {
             name: "STRENGTH TRAINING FOR WOMEN",
             description:
               "A strength training class specifically designed for women to build muscle, increase strength, and improve overall fitness.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for women of all fitness levels",
               "for those looking to build strength",
@@ -696,7 +716,8 @@ export const data = {
             name: "ACTIVE SENIOR",
             description:
               "A gentle and effective workout class designed specifically for seniors, focusing on improving mobility, strength, and overall health through low-impact exercises.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for seniors",
               "for those looking for low-impact exercises",
@@ -716,7 +737,8 @@ export const data = {
             name: "OCR",
             description:
               "Obstacle Course Racing (OCR) is a high-intensity workout that prepares participants for obstacle course races by improving strength, agility, and endurance.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for fitness enthusiasts",
               "for those training for OCR events",
@@ -737,7 +759,8 @@ export const data = {
             name: "POLE DANCE",
             description:
               "A fun and challenging workout that combines dance and acrobatics using a vertical pole, focusing on building strength, flexibility, and confidence.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for those interested in dance and acrobatics",
               "for regular trainees",
@@ -757,7 +780,8 @@ export const data = {
             name: "CROSS-WEIGHTLIFTING TRAINING",
             description:
               "A hybrid workout that combines elements of cross-training and weightlifting to build strength, power, and overall fitness.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for fitness enthusiasts",
               "for those looking to combine cross-training and weightlifting",
@@ -777,7 +801,8 @@ export const data = {
             name: "CROSS TRAINING (INTRO)",
             description:
               "An introductory class to cross training, designed to familiarize participants with the basic movements and exercises involved in cross training workouts.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for beginners",
               "for those new to cross training",
@@ -798,7 +823,8 @@ export const data = {
             name: "POWERLIFTING",
             description:
               "A strength training class focusing on the three main powerlifting lifts: squat, bench press, and deadlift, aimed at building maximal strength.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for those interested in powerlifting",
               "for regular trainees",
@@ -824,7 +850,8 @@ export const data = {
             name: "INTRO BIKES",
             description:
               "An introductory class to indoor cycling, designed to familiarize participants with the basics of bike setup, cycling techniques, and fitness benefits.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for beginners",
               "for those new to indoor cycling",
@@ -845,7 +872,8 @@ export const data = {
             name: "POUND®​",
             description:
               "A full-body workout that combines cardio, conditioning, and strength training with yoga and Pilates-inspired movements, using lightly weighted drumsticks called Ripstix®.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a fun and dynamic workout",
@@ -865,7 +893,8 @@ export const data = {
             name: "BICYCLES",
             description:
               "An indoor cycling class that provides a high-energy cardiovascular workout, focusing on improving endurance, strength, and overall fitness through various cycling routines.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to improve cardiovascular fitness",
@@ -885,7 +914,8 @@ export const data = {
             name: "TRAMPOLINES",
             description:
               "A fun and energetic workout class that uses trampolines to improve cardiovascular fitness, coordination, and overall body strength through various jumping exercises.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a fun workout",
@@ -911,7 +941,8 @@ export const data = {
             name: "YOGA",
             description:
               "A traditional yoga class focusing on improving flexibility, strength, and mental clarity through a series of poses and breathing exercises.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to improve flexibility and strength",
@@ -931,7 +962,8 @@ export const data = {
             name: "SPINE YOGA",
             description:
               "A specialized yoga class focused on strengthening and stretching the muscles around the spine, promoting a healthy back and better posture.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those with back issues",
@@ -951,7 +983,8 @@ export const data = {
             name: "MOBILITY",
             description:
               "A class designed to improve joint mobility and flexibility through a variety of exercises that enhance range of motion and prevent injuries.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to improve joint mobility",
@@ -971,7 +1004,8 @@ export const data = {
             name: "PILATES",
             description:
               "A low-impact workout focused on strengthening the core, improving flexibility, and enhancing overall body awareness through controlled movements.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to strengthen the core",
@@ -991,7 +1025,8 @@ export const data = {
             name: "STRETCHING",
             description:
               "A class dedicated to improving overall flexibility and muscle recovery through a series of stretching exercises targeting all major muscle groups.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to improve flexibility",
@@ -1011,7 +1046,8 @@ export const data = {
             name: "HEALTHY SPINE",
             description:
               "A workout class focused on exercises that promote a healthy spine, improve posture, and alleviate back pain through strengthening and stretching routines.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those with back issues",
@@ -1036,7 +1072,8 @@ export const data = {
             name: "AEROBOXING",
             description:
               "A high-energy workout combining elements of aerobic exercise and boxing techniques, designed to improve cardiovascular fitness, agility, and coordination.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a dynamic workout",
@@ -1056,7 +1093,8 @@ export const data = {
             name: "FAT KILLER",
             description:
               "An intense workout aimed at burning calories and fat through a combination of cardio exercises and strength training routines.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to burn calories and fat",
@@ -1076,7 +1114,8 @@ export const data = {
             name: "HIIT",
             description:
               "High-Intensity Interval Training (HIIT) involves short bursts of intense exercise followed by periods of rest or lower-intensity exercise, known for its effectiveness in burning calories and improving fitness levels.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a time-efficient workout",
@@ -1097,7 +1136,8 @@ export const data = {
             name: "INTERVAL",
             description:
               "An interval training class that alternates between periods of high-intensity exercise and periods of rest or lower-intensity exercise, focusing on improving endurance and cardiovascular health.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to improve endurance",
@@ -1118,7 +1158,8 @@ export const data = {
             name: "TABATA",
             description:
               "A form of high-intensity interval training (HIIT) consisting of 20 seconds of intense exercise followed by 10 seconds of rest, repeated for multiple rounds, known for its efficiency in improving fitness levels.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a challenging workout",
@@ -1143,7 +1184,8 @@ export const data = {
             name: "ACTIVE KIDS",
             description:
               "A fun and interactive class designed to keep kids active and engaged through age-appropriate exercises, games, and activities that promote physical fitness, coordination, and social skills.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "children aged 5-12",
               "for kids who enjoy active play",
@@ -1168,7 +1210,8 @@ export const data = {
             name: "LES MILLS",
             description:
               "BODYCOMBAT® is a high-energy martial arts-inspired workout that is totally non-contact. Punch and kick your way to fitness and burn up to 740 calories* in a class. No experience needed. Learn moves from Karate, Taekwondo, Boxing, Muay Thai, Capoeira and Kung Fu. Release stress, have a blast and feel like a champ.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking for a dynamic and empowering workout",
@@ -1194,7 +1237,8 @@ export const data = {
             name: "CHOREOLOGY",
             description:
               "Choreology is a dance fitness class that focuses on learning and mastering choreography from various dance styles such as hip-hop, jazz, and contemporary. Participants improve coordination, rhythm, and dance skills while enjoying energetic music.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all dance and fitness enthusiasts",
               "for those looking to learn dance choreography",
@@ -1214,7 +1258,8 @@ export const data = {
             name: "HIGH HEELS",
             description:
               "High Heels is a dance class where participants learn dance routines while wearing high heels. The class focuses on confidence, style, and mastering dance moves inspired by various dance genres.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for dance enthusiasts who love wearing high heels",
               "for those looking to improve confidence and style",
@@ -1235,7 +1280,8 @@ export const data = {
             name: "LATIN SOLO",
             description:
               "Latin Solo is a dance fitness class that focuses on solo Latin dance styles such as salsa, merengue, and bachata. Participants learn basic steps, improve coordination, and enjoy the rhythmic music.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all dance enthusiasts",
               "for those looking to learn Latin dance styles",
@@ -1255,7 +1301,8 @@ export const data = {
             name: "RITMO DO BRAZIL",
             description:
               "Ritmo do Brazil is a dance fitness class that brings the vibrant rhythms and dance styles of Brazil to the workout. Participants enjoy a fusion of samba, bossa nova, and other Brazilian dance forms while improving fitness and rhythm.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all dance and fitness enthusiasts",
               "for those interested in Brazilian dance styles",
@@ -1276,7 +1323,8 @@ export const data = {
             name: "SALSATION®",
             description:
               "Salsation® is a dance fitness class that combines salsa and other Latin dance styles with fitness elements. Participants learn choreographed routines to upbeat Latin music, improving coordination, rhythm, and fitness levels.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all dance and fitness enthusiasts",
               "for those who enjoy Latin dance rhythms",
@@ -1296,7 +1344,8 @@ export const data = {
             name: "ZUMBA GOLD®",
             description:
               "Zumba Gold® is a modified Zumba® class that introduces easy-to-follow choreography at a lower intensity. It focuses on improving cardiovascular health, flexibility, and balance through Latin-inspired dance movements.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for active older adults",
               "for beginners",
@@ -1316,7 +1365,8 @@ export const data = {
             name: "ZUMBA®",
             description:
               "Zumba® is a high-energy dance fitness class that combines Latin and international music with dance moves. Participants enjoy a dynamic workout that improves cardiovascular fitness, coordination, and mood.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all dance and fitness enthusiasts",
               "for those who enjoy dance and music",
@@ -1341,7 +1391,8 @@ export const data = {
             name: "ANTI-STRESS HARMONY",
             description:
               "Anti-Stress Harmony is a calming and rejuvenating class that combines gentle movements, breathing exercises, and mindfulness techniques to reduce stress levels and promote overall well-being.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all individuals seeking stress relief",
               "for those looking to improve mental well-being",
@@ -1361,7 +1412,8 @@ export const data = {
             name: "STRETCHING / MOBILITY",
             description:
               "The Stretching / Mobility class focuses on improving flexibility, joint mobility, and muscle recovery through a series of gentle stretches and mobility exercises. Suitable for all fitness levels.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to improve flexibility and mobility",
@@ -1381,7 +1433,8 @@ export const data = {
             name: "ADAPTIVE TRAINING",
             description:
               "Adaptive Training is designed for individuals with varying abilities, focusing on personalized exercises and modifications to improve strength, flexibility, and overall fitness in a supportive environment.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for individuals with diverse abilities",
               "for those looking for personalized fitness routines",
@@ -1401,7 +1454,8 @@ export const data = {
             name: "RUNNER'S TRAINING",
             description:
               "Runner's Training focuses on improving running technique, endurance, and overall performance through a combination of interval training, strength exercises, and flexibility routines tailored for runners.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for runners of all levels",
               "for those looking to improve running performance",
@@ -1426,7 +1480,8 @@ export const data = {
             name: "MARTIAL ARTS",
             description:
               "Martial Arts classes encompass various disciplines such as karate, taekwondo, kung fu, and more. Participants learn self-defense techniques, improve physical fitness, and cultivate discipline and focus.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all ages and fitness levels",
               "for those interested in self-defense and discipline",
@@ -1446,7 +1501,8 @@ export const data = {
             name: "BJJ (Brazilian Jiu-Jitsu)",
             description:
               "Brazilian Jiu-Jitsu (BJJ) focuses on ground fighting and grappling techniques. Participants learn submission holds, escapes, and positional strategies to control opponents and achieve victory.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those interested in ground fighting techniques",
@@ -1466,7 +1522,8 @@ export const data = {
             name: "BOX",
             description:
               "Boxing classes focus on fundamental boxing techniques such as punches, footwork, and defensive moves. Participants enhance cardiovascular fitness, coordination, and overall boxing skills.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those looking to learn boxing basics",
@@ -1486,7 +1543,8 @@ export const data = {
             name: "BOXING (BEGINNER)",
             description:
               "Beginner Boxing classes are tailored for individuals new to boxing. Participants learn basic punches, defensive techniques, and foundational movements in a supportive and instructional environment.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for beginners with no boxing experience",
               "for those looking to start boxing",
@@ -1507,7 +1565,8 @@ export const data = {
             name: "WOMEN'S BOXING",
             description:
               "Women's Boxing classes focus on empowering women through boxing techniques and workouts. Participants learn self-defense skills, improve fitness, and gain confidence in a supportive environment.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for women of all fitness levels",
               "for those interested in boxing and self-defense",
@@ -1528,7 +1587,8 @@ export const data = {
             name: "GRAPPLING",
             description:
               "Grappling classes focus on wrestling techniques and ground fighting skills. Participants learn takedowns, submissions, and positional control to dominate opponents in close combat scenarios.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those interested in wrestling and ground fighting",
@@ -1549,7 +1609,8 @@ export const data = {
             name: "JUDO",
             description:
               "Judo classes focus on throws, takedowns, and grappling techniques. Participants learn to use an opponent’s strength and balance against them while developing physical fitness and mental discipline.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all ages and fitness levels",
               "for those interested in traditional martial arts",
@@ -1570,7 +1631,8 @@ export const data = {
             name: "KICKBOXING",
             description:
               "Kickboxing classes combine elements of boxing and martial arts kicks. Participants improve cardiovascular fitness, flexibility, and overall striking abilities through a variety of punching and kicking drills.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those interested in striking techniques",
@@ -1590,7 +1652,8 @@ export const data = {
             name: "MMA (Mixed Martial Arts)",
             description:
               "MMA classes combine techniques from various martial arts disciplines such as boxing, Brazilian Jiu-Jitsu, Muay Thai, and wrestling. Participants learn versatile combat skills and improve overall fitness.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those interested in versatile combat training",
@@ -1611,7 +1674,8 @@ export const data = {
             name: "MUAY THAI",
             description:
               "Muay Thai classes focus on traditional Thai boxing techniques including punches, kicks, elbows, and knee strikes. Participants improve striking power, conditioning, and mental focus.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those interested in Thai boxing",
@@ -1631,7 +1695,8 @@ export const data = {
             name: "WRESTLING",
             description:
               "Wrestling classes focus on takedowns, throws, and grappling techniques. Participants learn to control opponents on the mat while improving strength, agility, and mental toughness.",
-            video: "https://www.youtube.com/watch?v=example", // Replace with an actual video link
+            video:
+              "https://player.vimeo.com/video/753901222?autoplay=1&title=0&byline=0&portrait=0", // Replace with an actual video link
             forWhom: [
               "for all fitness levels",
               "for those interested in wrestling techniques",
@@ -1861,7 +1926,8 @@ export const data = {
   yes2MoveCourses: [
     {
       video:
-        "https://www.youtube.com/watch?v=eTxO5ZMxcsc&pp=ygULZ3ltIGNvdXJzZSA%3D",
+        "https://player.vimeo.com/video/399707077?autoplay=1&title=0&byline=0&portrait=0",
+      img: "/yesmove1.jpg",
       title: "TURBO COMBUSTION",
       trainers: "Maria and Kamil Mańko",
       duration: "30",
@@ -1869,7 +1935,8 @@ export const data = {
     },
     {
       video:
-        "https://www.youtube.com/watch?v=klmBssEYkdU&pp=ygURR09PRCBNT1JOSU5HIFlPR0E%3D",
+        "https://player.vimeo.com/video/399716434?autoplay=1&title=0&byline=0&portrait=0",
+      img: "/yesmove2.jpg",
       title: "GOOD MORNING YOGA",
       trainers: "Adrian Matecki",
       duration: "15",
@@ -1877,7 +1944,8 @@ export const data = {
     },
     {
       video:
-        "https://www.youtube.com/watch?v=OhowZLC9WF0&pp=ygUWU1RSRVRDSElORyBGT1IgV0FSTS1VUA%3D%3D",
+        "https://player.vimeo.com/video/399692892?autoplay=1&title=0&byline=0&portrait=0",
+      img: "/yesmove3.jpg",
       title: "STRETCHING FOR WARM-UP",
       trainers: "Agnieszka Dolniak",
       duration: "15",
@@ -1885,7 +1953,8 @@ export const data = {
     },
     {
       video:
-        "https://www.youtube.com/watch?v=VyvuWt3XVRI&pp=ygUMQ09SRSBQSUxBVEVT",
+        "https://player.vimeo.com/video/399716434?autoplay=1&title=0&byline=0&portrait=0",
+      img: "/yesmove4.jpg",
       title: "CORE PILATES",
       trainers: "atrick Tomaszewski",
       duration: "15",

@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { ThemeProvider } from "@/components/theme-provider";
 
 
 const LandingLayout = async ({
@@ -12,9 +13,15 @@ const LandingLayout = async ({
     <main >
       <div>
         <div className="mx-auto  h-full w-full">
-          <Header />
-          {children}
-          <Footer />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+          >
+            <Header />
+            {children}
+            <Footer />
+          </ThemeProvider>
         </div>
       </div>
     </main>
