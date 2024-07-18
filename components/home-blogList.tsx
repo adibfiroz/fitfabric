@@ -82,7 +82,7 @@ const HomeBlogList = () => {
             <Slider  {...settings} className=" ">
                 {BlogList.map((item) => (
                     <div key={item.id} className=" h-full">
-                        <div className=" bg-white rounded-2xl p-4 group/item mr-5">
+                        <div className=" bg-white dark:bg-[#020817] rounded-2xl p-4 group/item mr-5">
                             <Link href="/blogs/package-info">
                                 <div className=" grid grid-cols-12 gap-4">
                                     <div className=" col-span-6">

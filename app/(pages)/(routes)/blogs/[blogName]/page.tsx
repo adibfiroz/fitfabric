@@ -53,8 +53,8 @@ const BlogPage = () => {
                     <TabsContent value="meeting">
                         <div className=' grid grid-cols-1 gap-5 md:grid-cols-2'>
                             <div className=' max-w-md mx-auto flex items-start flex-col justify-center px-3 md:px-0'>
-                                <h3 className=' text-black font-bold text-sm 2xl:text-xl'>{data.blogs[0].packs[0].title}</h3>
-                                <p className=' text-gray-600 text-[12px] 2xl:text-lg mt-5'>{data.blogs[0].packs[0].content.description}</p>
+                                <h3 className=' text-black font-bold dark:text-white text-sm 2xl:text-xl'>{data.blogs[0].packs[0].title}</h3>
+                                <p className=' text-gray-600 dark:text-gray-400 text-[12px] 2xl:text-lg mt-5'>{data.blogs[0].packs[0].content.description}</p>
                                 <div className='flex flex-col md:flex-row gap-4 md:gap-x-4 mt-8'>
                                     <Button variant="secondary" className='radial_bg_red shadow-xl text-white px-8 font-semibold  rounded-full text-[11px] 2xl:text-lg'>
                                         I buy a pass and recieve a package
@@ -62,7 +62,7 @@ const BlogPage = () => {
                                 </div>
                             </div>
 
-                            <div className=' rounded-2xl overflow-hidden'>
+                            <div className=' rounded-2xl overflow-hidden dark:bg-[#020817]'>
                                 <iframe
                                     width="100%"
                                     height="315"
@@ -70,6 +70,7 @@ const BlogPage = () => {
                                     title="Video player"
                                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
+                                    className=' object-cover'
                                 ></iframe>
                             </div>
                         </div>
@@ -82,8 +83,8 @@ const BlogPage = () => {
                             </div>
 
                             <div className=' max-w-md mx-auto flex items-start flex-col justify-center px-3 md:px-0 mb-10 md:mb-0'>
-                                <h3 className=' text-black font-bold text-sm 2xl:text-xl'>{data.blogs[1].packs[1].title}</h3>
-                                <p className=' text-gray-600 text-[12px] 2xl:text-lg mt-5'>{data.blogs[1].packs[1].content.videoDescription}</p>
+                                <h3 className=' text-black font-bold dark:text-white text-sm 2xl:text-xl'>{data.blogs[1].packs[1].title}</h3>
+                                <p className=' text-gray-600 dark:text-gray-400 text-[12px] 2xl:text-lg mt-5'>{data.blogs[1].packs[1].content.videoDescription}</p>
                                 <div className='flex flex-col md:flex-row gap-4 md:gap-x-4 mt-8'>
                                     <Button variant="secondary" className='radial_bg_red shadow-xl text-white px-8 font-semibold  rounded-full text-[11px] 2xl:text-lg'>
                                         I buy a pass and recieve a package
@@ -95,8 +96,8 @@ const BlogPage = () => {
                     <TabsContent value="into">
                         <div className=' grid grid-cols-1 gap-5 md:grid-cols-2'>
                             <div className=' max-w-md mx-auto flex items-start flex-col justify-center px-3 md:px-0 mb-10 md:mb-0'>
-                                <h3 className=' text-black font-bold text-sm 2xl:text-xl'>{data.blogs[2].packs[2].title}</h3>
-                                <p className=' text-gray-600 text-[12px] 2xl:text-lg mt-5'>{data.blogs[2].packs[2].content.videoDescription}</p>
+                                <h3 className=' text-black font-bold dark:text-white text-sm 2xl:text-xl'>{data.blogs[2].packs[2].title}</h3>
+                                <p className=' text-gray-600 dark:text-gray-400 text-[12px] 2xl:text-lg mt-5'>{data.blogs[2].packs[2].content.videoDescription}</p>
                                 <div className='flex flex-col md:flex-row gap-4 md:gap-x-4 mt-8'>
                                     <Button variant="secondary" className='radial_bg_red shadow-xl text-white px-8 font-semibold  rounded-full text-[11px] 2xl:text-lg'>
                                         I buy a pass and recieve a package

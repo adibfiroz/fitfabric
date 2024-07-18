@@ -41,6 +41,11 @@ button[data-state="active"].schedule {
     -webkit-transform: skew(-37deg);
 }
 
+.dark .skew::after {
+  content: "";
+    background-color: #020817;
+}
+
 .custom-shadow {
   box-shadow: .8rem 1.6rem 12.8rem #0d1c071a
 }

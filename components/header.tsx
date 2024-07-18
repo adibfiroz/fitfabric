@@ -6,6 +6,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Button } from './ui/button'
 import { cn } from '@/lib/utils'
 import { usePathname } from 'next/navigation'
+import { ThemeToggle } from './theme-toggle'
 
 const routes = [
     {
@@ -68,12 +69,12 @@ const Header = () => {
         };
     }, []);
 
-    const urls = pathName === "/cluby-fitness" || pathName === "/contact" || pathName === "/schedule" || pathName.startsWith("/blogs")
+    const urls = pathName === "/cluby-fitness" || pathName === "/contact" || pathName === "/schedule" || pathName.startsWith("/blogs") || pathName.startsWith("/classess")
 
     return (
-        <header className={cn('fixed top-0 left-0 w-full z-30', isVisible && "bg-white shadow-xl")}>
+        <header className={cn('fixed top-0 left-0 w-full z-30', isVisible && "bg-white dark:bg-[#020817] shadow-xl dark:shadow-slate-900")}>
             <div className={cn(' max-w-[1900px] mx-auto transition-all duration-500 pb-5 pt-16 md:pt-10 lg:py-10 px-3 lg:px-16 relative', isVisible && "!py-3")}>
-                <div className={cn('flex justify-between items-center text-white font-semibold', urls && "text-black", isVisible && " text-black")}>
+                <div className={cn('flex justify-between items-center text-white font-semibold', urls && "text-black dark:text-white ", isVisible && " text-black dark:text-white ")}>
 
                     <Link href="/" className=' flex-shrink-0'>
                         <img src={
@@ -82,7 +83,7 @@ const Header = () => {
                                 : isVisible
                                     ? "/logo2.svg"
                                     : "/logo.svg"
-                        } className=' w-24 ' width={100} height={50} alt='logo' />
+                        } className=' w-24' width={100} height={50} alt='logo' />
                     </Link>
 
 
@@ -91,7 +92,7 @@ const Header = () => {
                         <ChevronDown size={16} className='text-[#6cce40]' />
                     </Link>
 
-                    <ul className={cn('lg:text-sm hidden lg:flex gap-16', open && " fixed top-0 bottom-0 left-0 right-0 bg-white text-black flex justify-center z-40 items-center text-2xl flex-col gap-8 font-semibold")}>
+                    <ul className={cn('lg:text-sm hidden lg:flex gap-16', open && " fixed top-0 bottom-0 left-0 right-0 bg-white dark:bg-[#020817] text-black dark:text-white flex justify-center z-40 items-center text-2xl flex-col gap-8 font-semibold")}>
                         <li className='lg:hidden '>
                             <Button onClick={() => setOpen(!open)} className='radial-bg-green rounded-full p-0 w-10 fixed top-5 right-5 border-0 shadow-xl'>
                                 <X size={30} className=' text-gray-700' />
@@ -99,16 +100,14 @@ const Header = () => {
                         </li>
                         {routes.map((route) => (
                             <li key={route.label}>
-                                <Link className={cn(" hover:underline 2xl:text-lg", pathName === route.href && " text-[#6cce40]")} onClick={() => setOpen(false)} href={route.href}>{route.label}</Link>
+                                <Link className={cn(" hover:underline  2xl:text-lg", pathName === route.href && " text-[#6cce40] ")} onClick={() => setOpen(false)} href={route.href}>{route.label}</Link>
                             </li>
                         ))}
 
                     </ul>
 
                     <div className='flex gap-x-2 md:gap-x-4'>
-                        <Button variant="secondary" className=' rounded-full  2xl:h-12 2xl:text-lg'>
-                            theme
-                        </Button>
+                        <ThemeToggle />
 
                         <div className=' relative' ref={dropdownRef}>
 
