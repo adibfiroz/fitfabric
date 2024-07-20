@@ -1,11 +1,11 @@
 "use client"
 
-import MapComponent from '@/components/MapComponent';
 import { cn } from '@/lib/utils';
 import React, { useState } from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ListChecks, MapPin } from 'lucide-react';
 import { data } from '@/data';
+import MapComponent from './MapComponent';
 
 
 interface Club {
@@ -75,7 +75,7 @@ const Schedule = () => {
     return (
         <Tabs defaultValue="list" className="">
             <div className=' flex justify-center items-center flex-wrap gap-5 sm:gap-20 mb-8'>
-                <select name="city" id="city" className='custom-select appearance-none w-44 outline-none border-2 border-[#6cce40] dark:bg-[#020817] rounded-full py-1.5 px-5 text-sm font-semibold' onChange={handleCityChange}>
+                <select name="city" id="city" className='custom-select trunc pr-8 appearance-none w-44 outline-none border-2 border-[#6cce40] dark:bg-[#020817] rounded-full py-1.5 px-5 text-sm font-semibold' onChange={handleCityChange}>
                     <option value="">Place</option>
                     {data.schedule.places.map((item, index) => (
                         <option key={index} value={item.cityName}>
@@ -94,8 +94,8 @@ const Schedule = () => {
                     </TabsTrigger>
                 </TabsList>
             </div>
-            <TabsContent value="map">
-                <MapComponent />
+            <TabsContent value="map" >
+                <MapComponent items={filteredPlaces} />
             </TabsContent>
             <TabsContent value="list">
                 {filteredPlaces.map((item, index) => (

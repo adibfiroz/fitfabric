@@ -17,8 +17,8 @@ const YesMove = () => {
 
 
     return (
-        <div>
-            <div className="my-16 px-3 lg:px-16 max-w-6xl mx-auto">
+        <section className=' text-center'>
+            <div className="my-16 px-3 sm:px-0 lg:px-16 max-w-6xl mx-auto">
                 <img src="/yesmove.svg" className="dark:invert mx-auto w-32" alt="" />
                 <p className=" text-[12px] 2xl:text-[15px] text-center text-gray-500  mt-6">The largest training platform in Poland. </p>
                 <p className=" text-[12px] 2xl:text-[15px] text-center text-gray-500  mt-2 mb-10">
@@ -34,8 +34,8 @@ const YesMove = () => {
                                 </Button>
                             </div>
 
-                            <div className=" text-black dark:text-white text-[11px] 2xl:text-[15px] font-bold mt-7">{item.title}</div>
-                            <p className=" text-[11px] mt-1 font-semibold 2xl:text-[14px] text-gray-500 dark:text-gray-400">{item.trainers}</p>
+                            <div className=" text-black dark:text-white text-[11px] 2xl:text-[15px] font-bold mt-7 text-left">{item.title}</div>
+                            <p className=" text-[11px] mt-1 font-semibold 2xl:text-[14px] text-gray-500 dark:text-gray-400  text-left">{item.trainers}</p>
 
                             <div className="flex gap-6 text-[10px] text-gray-600 dark:text-gray-400 mt-4">
                                 <div className="flex gap-2">
@@ -85,7 +85,7 @@ const YesMove = () => {
                     </div>
                 </div>
             }
-        </div>
+        </section>
     )
 }
 
