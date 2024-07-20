@@ -9,10 +9,7 @@ const LandingBanner = () => {
     return (
         <section>
             <div className="homeBanner pt-32 pb-12 rounded-b-3xl px-3 lg:px-16 relative overflow-hidden">
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
-                <div className="bubble"></div>
+
                 <div className=" relative rounded-2xl overflow-hidden  md:h-[450px] grid grid-cols-12 bg-[#6cce40] mx-auto">
                     <div className=" text-white p-6 lg:py-12 lg:pl-16 col-span-12 md:col-span-5">
                         <p className=" text-[12px] font-semibold">{data.landingAdd.topText}</p>
@@ -40,7 +37,7 @@ const LandingBanner = () => {
                     </div>
                 </div>
 
-                <div className="mt-4">
+                <div className="mt-4 z-10 relative">
                     <h2 className=" text-white text-xl md:text-2xl font-extrabold">
                         <Link href="/" className="hover:underline">
                             You{`'`}re closer to fitness than you think!

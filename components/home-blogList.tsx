@@ -20,10 +20,18 @@ const HomeBlogList = () => {
 
         responsive: [
             {
+                breakpoint: 1200,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 3.1,
+                    slidesToScroll: 1
+                }
+            },
+            {
                 breakpoint: 1000,
                 settings: {
                     arrows: false,
-                    slidesToShow: 3,
+                    slidesToShow: 2.5,
                     slidesToScroll: 1
                 }
             },
