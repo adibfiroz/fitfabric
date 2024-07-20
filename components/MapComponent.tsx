@@ -5,7 +5,7 @@ import "leaflet/dist/leaflet.css";
 import MapPin from "./pin";
 
 interface MapComponentProps {
-  items: string[]
+  items: any
 }
 
 const MapComponent = ({ items }: MapComponentProps) => {
