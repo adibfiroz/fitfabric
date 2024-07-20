@@ -1724,6 +1724,8 @@ export const data = {
           {
             name: "ANDRESPOL",
             address: "Rokicińska 125, 95-020 Andrespol",
+            latitude: 51.726608,
+            longitude: 19.637289,
             benefits: [
               "Gym",
               "Fitness",
@@ -1742,6 +1744,8 @@ export const data = {
           {
             name: "KONSTANTYNÓW ŁÓDZKI",
             address: "Jana Pawła II 11/13, 95-050 Konstantynów Łódzki",
+            latitude: 51.74842,
+            longitude: 19.32215,
             benefits: ["Gym", "Fitness", "Wifi", "Parking", "Bar"],
           },
         ],
@@ -1752,6 +1756,8 @@ export const data = {
           {
             name: "TOMASZOW MAZOWIECKI",
             address: "ul. Warsaw 1, 97-200 Tomaszow Mazowiecki",
+            latitude: 51.5333,
+            longitude: 20.0167,
             benefits: ["Gym", "Fitness", "Wifi", "Parking", "Bar", "Sauna"],
           },
         ],
@@ -1762,16 +1768,22 @@ export const data = {
           {
             name: "Dąbrowa",
             address: "ul. Dabrowskiego 207/225, 93-231 Lodz",
+            latitude: 51.73465,
+            longitude: 19.52133,
             benefits: ["Gym", "Fitness", "Wifi", "Parking", "Bar", "Sauna"],
           },
           {
             name: "Franciscan",
             address: "99 Franciszkańska Street, 91-845 Lodz",
+            latitude: 51.79185,
+            longitude: 19.46042,
             benefits: ["Gym", "Fitness", "Wifi", "Parking", "Bar"],
           },
           {
             name: "Retkińska Gallery",
             address: "al. Cardinal Stefan Wyszyński 29, 91-867 Lodz",
+            latitude: 51.75,
+            longitude: 19.4667,
             benefits: [
               "Gym",
               "Fitness",
@@ -1786,11 +1798,15 @@ export const data = {
           {
             name: "Hetman's",
             address: "al. Hetmanska 1892-444 Lodz",
+            latitude: 51.75,
+            longitude: 19.46667,
             benefits: ["Gym", "Fitness", "Wifi", "Parking", "Bar"],
           },
           {
             name: "Kilinski",
             address: "122/128 Kilinskiego Street, 90-013 Lodz",
+            latitude: 51.761955,
+            longitude: 19.467936,
             benefits: [
               "Gym",
               "Fitness",
@@ -1804,6 +1820,8 @@ export const data = {
           {
             name: "Matejko",
             address: "Matejki Street 3/5, 91-402 Lodz",
+            latitude: 51.812261,
+            longitude: 19.5217231,
             benefits: [
               "Gym",
               "Fitness",
@@ -1817,16 +1835,22 @@ export const data = {
           {
             name: "Nowosolna",
             address: "Byszewska 3a St., 92-770 Lodz",
+            latitude: 51.7950753,
+            longitude: 19.5924593,
             benefits: ["Gym", "Fitness", "Bar", "Wifi", "Parking", "Sauna"],
           },
           {
             name: "Port Lodz",
             address: "Pabianicka Street 245, 93-457 Lodz",
+            latitude: 51.703568,
+            longitude: 19.418911,
             benefits: ["Gym", "Fitness", "Wifi", "Solarium", "Bar", "Sauna"],
           },
           {
             name: "Revolution",
             address: "Revolution of 1905 No. 44, 90-213 Lodz",
+            latitude: 51.77655,
+            longitude: 19.4651524,
             benefits: [
               "Gym",
               "Fitness",
@@ -1840,6 +1864,8 @@ export const data = {
           {
             name: "Fire brigade",
             address: "5 Strażacka Street, 93-318 Lodz",
+            latitude: 51.7177531,
+            longitude: 19.4818069,
             benefits: [
               "Gym",
               "Fitness",
@@ -1853,6 +1879,8 @@ export const data = {
           {
             name: "Succession",
             address: "al. Politechniki 1, 93-590 Lodz",
+            latitude: 51.7488483,
+            longitude: 19.4485676,
             benefits: [
               "Gym",
               "Fitness",
@@ -1866,6 +1894,8 @@ export const data = {
           {
             name: "Theophilus",
             address: "ul. Aleksandrowska 38, 91-151 Lodz",
+            latitude: 51.797417,
+            longitude: 19.3924352,
             benefits: [
               "Gym",
               "Fitness",
@@ -1879,6 +1909,8 @@ export const data = {
           {
             name: "Widzew Manufactory",
             address: "Pilsudskiego 135, 92-318 Lodz",
+            latitude: 51.7625635,
+            longitude: 19.5007366,
             benefits: [
               "Gym",
               "Fitness",
@@ -1892,11 +1924,15 @@ export const data = {
           {
             name: "Sports Bay",
             address: "al. Politechniki 10, 93-590 Lodz",
+            latitude: 51.7467345,
+            longitude: 19.4519108,
             benefits: ["Gym", "Squash", "Wifi", "Bar"],
           },
           {
             name: "Zgierska",
             address: "ul. Zgierska 211, 91-497 Lodz",
+            latitude: 51.8177371,
+            longitude: 19.4415779,
             benefits: [
               "Gym",
               "Fitness",
@@ -1909,6 +1945,8 @@ export const data = {
           {
             name: "Lodz Zeliona",
             address: "1 Maja Avenue 119/121, 90-766 Lodz",
+            latitude: 51.75,
+            longitude: 19.4667,
             benefits: [
               "Gym",
               "Fitness",

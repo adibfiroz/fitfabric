@@ -7,6 +7,15 @@ import { Button } from './ui/button'
 import { cn } from '@/lib/utils'
 import { usePathname } from 'next/navigation'
 import { ThemeToggle } from './theme-toggle'
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectLabel,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
 
 const routes = [
     {
@@ -32,6 +41,7 @@ const Header = () => {
     const [isVisible, setIsVisible] = useState(false);
     const pathName = usePathname()
 
+
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 0) {
@@ -52,24 +62,9 @@ const Header = () => {
         };
     }, []);;
 
-    const [showDropdown, setShowDropdown] = useState(false);
-    const dropdownRef = useRef<any>(null);
 
+    const urls = pathName === "/cluby-fitness" || pathName === "/contact" || pathName === "/schedule" || pathName.startsWith("/blogs") || pathName.startsWith("/classess") || pathName === "/files-to-download"
 
-    useEffect(() => {
-        const handleClickOutside = (event: any) => {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-                setShowDropdown(false);
-            }
-        };
-
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, []);
-
-    const urls = pathName === "/cluby-fitness" || pathName === "/contact" || pathName === "/schedule" || pathName.startsWith("/blogs") || pathName.startsWith("/classess")
 
     return (
         <header className={cn('fixed top-0 left-0 w-full z-30', isVisible && "bg-white dark:bg-[#020817] shadow-xl dark:shadow-slate-900")}>
@@ -109,21 +104,20 @@ const Header = () => {
                     <div className='flex gap-x-2 md:gap-x-4'>
                         <ThemeToggle />
 
-                        <div className=' relative' ref={dropdownRef}>
+                        <Select>
+                            <SelectTrigger className="w-[120px] 2xl:py-5 2xl:text-lg bg-transparent dark:bg-transparent outline-none rounded-full border-2 border-[#6cce40] foucs:ring-offset-0 focus:ring-0">
+                                <SelectValue placeholder="Language" />
+                            </SelectTrigger>
+                            <SelectContent align='end'>
+                                <SelectGroup>
+                                    <SelectItem value="apple">English</SelectItem>
+                                    <SelectItem value="banana">Polish</SelectItem>
+                                    <SelectItem value="blueberry">Russian</SelectItem>
+                                </SelectGroup>
+                            </SelectContent>
+                        </Select>
 
-                            <div onClick={() => setShowDropdown(true)} className='border-2 border-[#6cce40] cursor-pointer text-[11px] sm:text-sm 2xl:text-lg rounded-full py-2 px-4 flex gap-1 items-center hover:underline'>
-                                Language
-                            </div>
-                            {showDropdown &&
-                                <ul className=' absolute top-10 bg-white p-1 shadow-2xl text-black text-sm rounded-md left-0 right-0'>
-                                    <li onClick={() => setShowDropdown(false)} className=' py-1 px-2 cursor-pointer rounded-sm text-gray-600 hover:bg-gray-200/90'>English</li>
-                                    <li onClick={() => setShowDropdown(false)} className=' py-1 px-2 cursor-pointer rounded-sm text-gray-600 hover:bg-gray-200/50'>Polish</li>
-                                    <li onClick={() => setShowDropdown(false)} className=' py-1 px-2 cursor-pointer rounded-sm text-gray-600 hover:bg-gray-200/50'>Russian</li>
-                                </ul>
-                            }
-                        </div>
-
-                        <Button onClick={() => setOpen(!open)} className='bg-transparent hover:bg-transparent text-[#6cce40] rounded-full border-2 lg:hidden border-[#6cce40] px-1.5'>
+                        <Button onClick={() => setOpen(!open)} className='bg-transparent  hover:bg-transparent text-[#6cce40] rounded-full border-2 lg:hidden border-[#6cce40] px-1.5'>
                             <Menu />
                         </Button>
                     </div>

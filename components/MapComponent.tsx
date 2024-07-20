@@ -1,25 +1,30 @@
+"use client";
 
-"use client"
+import { MapContainer, TileLayer } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import MapPin from "./pin";
 
-import { APIProvider, Map, Marker } from '@vis.gl/react-google-maps';
-
-function MapComponent() {
-    const apiKey = process.env.API_KEY || '';
-    return (
-        <div className=' rounded-2xl overflow-hidden'>
-            <APIProvider apiKey={apiKey}>
-                <Map
-                    style={{ width: '100%', height: '70vh' }}
-                    defaultCenter={{ lat: 22.54992, lng: 0 }}
-                    defaultZoom={3}
-                    gestureHandling={'greedy'}
-                    disableDefaultUI={true}
-                >
-                    <Marker position={{ lat: 53.54992, lng: 10.00678 }} />
-                </Map>
-            </APIProvider>
-        </div>
-    )
+interface MapComponentProps {
+  items: any
 }
+
+const MapComponent = ({ items }: MapComponentProps) => {
+  return (
+    <MapContainer
+      center={[51.726608, 19.637289]}
+      zoom={10}
+      scrollWheelZoom={true}
+      className="w-full rounded-3xl h-[60vh] z-20"
+    >
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      {items.map((item: any) => (
+        <MapPin key={item.cityName} item={item} />
+      ))}
+    </MapContainer>
+  );
+};
 
 export default MapComponent;
